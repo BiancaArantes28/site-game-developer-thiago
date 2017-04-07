@@ -48,7 +48,19 @@
 			</a>
         </li>
       
-        
+        <li style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-duration: 1.5s; -moz-animation-duration: 1.5s; animation-duration: 1.5s;-webkit-animation-delay: 0.15s; -moz-animation-delay: 0.15s; animation-delay: 0.15s;max-height:215px;margin-top:0px !important;" class="wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+        <a data-codigo="3" class="open-project" target="_blank"><img src="arquivos/makemefat2.jpg" alt="Pro-calc" title="Pro-calc" height="215px" style="margin-left:15px;height:215px;width: 265px;">
+			<div class="project-info">
+				<div class="project-details">
+					<h5 class="white-text red-border-bottom">
+					MAKE ME FAT</h5>
+					<div class="details white-text">
+						Android - IOS
+					</div>
+				</div>
+			</div>
+			</a>
+        </li>
         
 		</ul>
 	</div>
@@ -176,6 +188,42 @@
 				  </a>-->
 				  <center><a class="red-btn back-button" data-codigo="1" style="cursor: pointer;padding: 12px;border-radius:5px;"><i class="fa fa-chevron-left" aria-hidden="true"></i> Go Back</a></center>
 				</div>
+		</div>
+	</div>
+</div>
+<div class="row projects" id="abrir-projeto3" style="display:none;">
+	<div class="row">
+		<div class="col-md-3 col-xs-3">
+			<center><img src="arquivos/makemefat2.jpg" width="80%" alt="Jogo ShootTheClown" title="Jogo ShootTheClown"></center>
+		</div>
+		<div class="col-md-9 col-xs-9" style="text-align: left;">
+			<h3 class="dark-text" style="text-align: left;">Make me fat</h3>
+			<h5 class="white-text" style="text-align: left;color:black;margin-top:10px;">
+					AVIDO</h5>
+
+		    <a href="https://play.google.com/store/apps/details?id=com.Avido.ShootTheClown" target="_blank" style="float: left !important;margin-top:10px;color:green;"><i class="fa fa-android" aria-hidden="true"></i>   Baixe para Android</a><br>
+
+		    <p style="margin-top:30px;">Jogo lúdico, para jogadores casuais, com intuito de disputa consigo mesmo e com amigos, imergindo o jogador em ambiente de restaurante chique tendo um menino, gordinho e pomposo, porém muito malandro, como personagem principal, ele derruba o garçom de propósito e seu objetivo como jogador é
+            comer tudo de melhor! E claro, evitar restos, afinal comilão é um gordinho chique.</p>
+		</div>
+	</div>
+	<div class="row" style="margin-top: 60px;min-height: 456px;">
+		<div class="col-md-12 col-xs-12">
+			<div class="row">
+				<div class="col-md-1 col-xs-1 voltar-projeto3" style="min-height: 456px;text-align: center;padding-top:218px;border:1px solid black;">
+					<i class="fa fa-angle-left" aria-hidden="true" style="font-size:20px;"></i>
+				</div>
+				<div class="col-md-10 col-xs-10 fotos-projeto3">
+					<input type="hidden" id="img-projeto3" value="1">
+					<img src="arquivos/makemefat01.jpg" id="imgproject301" height="456px" width="100%">
+					<img src="arquivos/makemefat02.jpg" id="imgproject302" height="456px" width="100%" style="display: none;">
+					<img src="arquivos/makemefat03.jpg" id="imgproject303" height="456px" width="100%" style="display: none;">
+					<img src="arquivos/makemefat04.jpg" id="imgproject304" height="456px" width="100%" style="display: none;">
+				</div>
+				<div class="col-md-1 col-xs-1 avancar-projeto3" style="min-height: 456px;text-align: center;padding-top:218px;border:1px solid black; cursor: pointer;">
+					<i class="fa fa-angle-right" aria-hidden="true" style="font-size:20px;"></i>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

@@ -24,9 +24,9 @@
 			<ul class="nav navbar-nav navbar-right responsive-nav main-nav-list">
 				<li><a href="#home">Inicio</a></li>
 				<li><a href="#sobre-mim">Sobre mim</a></li>
-				<li><a href="#focus">Atuação</a></li>
-				<li><a href="#aboutus">Objetivo</a></li>
-				<li><a href="#cursos">Cursos</a></li>
+				<!--<li><a href="#focus">Atuação</a></li>-->
+				<!--<li><a href="#aboutus">Objetivo</a></li>-->
+				<!--<li><a href="#cursos">Cursos</a></li>-->
 				<li><a href="#works">Projetos</a></li>
 				<!--<li><a href="#contact">Contatos</a></li>-->
 			</ul>

@@ -2,7 +2,7 @@
 	<div class="container">
 		<div style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-duration: 1.5s; -moz-animation-duration: 1.5s; animation-duration: 1.5s;-webkit-animation-delay: 0.15s; -moz-animation-delay: 0.15s; animation-delay: 0.15s;" class="row wow fadeInRight animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
 			<div class="col-md-6">
-				<img src="arquivos/biancaarantes.jpg" class="img-circle" style="width:90%;"/>
+				<img src="arquivos/thiagogorgulho.jpg" class="img-circle" style="width:90%;"/>
 			</div>
 			<div class="col-md-6">
 				<p style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-duration: 1.5s; -moz-animation-duration: 1.5s; animation-duration: 1.5s;-webkit-animation-delay: 0.15s; -moz-animation-delay: 0.15s; animation-delay: 0.15s;" class="wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">Olá, seja bem-vindo ao meu site! Eu sou a Bianca Arantes dos Santos e curso Ciência da Computação na <a target="_blank" href="http://http://www.uninove.br/">Uninove.</a>

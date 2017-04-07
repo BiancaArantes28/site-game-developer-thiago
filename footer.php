@@ -6,7 +6,7 @@
 		<div class="icon-top red-text">
 		    <i class="fa fa-user"></i>
 		</div>
-		Bianca Arantes
+		Thiago Gorgulho
 	</div>
 	
 	
@@ -14,18 +14,18 @@
 		<div class="icon-top green-text">
 		<i class="fa fa-envelope-o"></i>
 		</div>
-		 <a href="mailto:biancaarantes28@gmail.com" style="color:#A9A9A9;">biancaarantes28@gmail.com</a>
+		 <a href="mailto:burningbluefox@gmail.com" style="color:#A9A9A9;">burningbluefox@gmail.com</a>
 	</div>
 	
 	
 
 	<div class="col-lg-3 col-sm-3 copyright">
 		<ul class="social">
-			<li><a target="_blank" href="https://www.facebook.com/bianca.luna.351756"><i class="fa fa-facebook-official"></i></a></li>
-			<li><a target="_blank" href="https://www.linkedin.com/in/bianca-arantes-dos-santos-919744121?trk=nav_responsive_tab_profile_pic"><i class="fa fa-linkedin"></i></a></li>
-			<li><a target="_blank" href="https://github.com/BiancaArantes28"><i class="fa fa-github"></i></a></li>
+			<li><a target="_blank" href="https://www.facebook.com/thiago.leao.1466"><i class="fa fa-facebook-official"></i></a></li>
+			<li><a target="_blank" href="https://www.linkedin.com/in/thiagogorgulho/"><i class="fa fa-linkedin"></i></a></li>
+			<li><a target="_blank" href="https://github.com/BurningBlueFox"><i class="fa fa-github"></i></a></li>
 		</ul>
-		 ©2017 Bianca Arantes
+		 ©2017 Thiago Gorgulho
 	</div>
 </div> 
 </footer> 
@@ -57,9 +57,9 @@
   	//$("#imgproject0"+i).hide("slow");
   	i = i + 1;
   	
-  	$("#img-projeto1").val(i);
+  	
   	if(i <= total){
-  		
+  		$("#img-projeto1").val(i);
   		anterior = i - 1;
   		
   		$("#imgproject0"+anterior).hide("slow");
@@ -67,6 +67,51 @@
   	}
   	
 
+  });
+
+  $(".voltar-projeto1").click(function(){
+    var i = parseInt($("#img-projeto1").val());
+    var proximo = 0;
+    
+      i = i - 1;
+    
+    if(i > 0){
+      $("#img-projeto1").val(i);
+      proximo = i + 1;
+      $("#imgproject0"+proximo).hide("slow");
+      $("#imgproject0"+i).show("slow");
+    }
+  });
+
+  $(".avancar-projeto3").click(function(){
+    var i = parseInt($("#img-projeto3").val());
+    var anterior = 0;
+    var total = $(".fotos-projeto3 img").length;
+    //$("#imgproject0"+i).hide("slow");
+    i = i + 1;
+    
+    
+    if(i <= total){
+      $("#img-projeto3").val(i);
+      anterior = i - 1;
+      
+      $("#imgproject30"+anterior).hide("slow");
+      $("#imgproject30"+i).show("slow");
+    }
+  });
+
+  $(".voltar-projeto3").click(function(){
+    var i = parseInt($("#img-projeto3").val());
+    var proximo = 0;
+    
+      i = i - 1;
+    
+    if(i > 0){
+      $("#img-projeto3").val(i);
+      proximo = i + 1;
+      $("#imgproject30"+proximo).hide("slow");
+      $("#imgproject30"+i).show("slow");
+    }
   });
 </script>
 <!-- SCRIPTS -->

@@ -6,7 +6,7 @@
 	<body>
 		<?php include('header.php') ?>
 		<?php include('sobremim.php') ?>
-		<?php include('atuacao.php') ?>
+		<?php //include('atuacao.php') ?>
 		<?php //include('objetivos.php') ?>
 		<?php //include('cursos.php') ?>
 		<?php include('projetos.php') ?>
